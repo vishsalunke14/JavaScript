@@ -30,3 +30,28 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp)
+
+
+
+// ***********************************
+// stack (Premitive) and Heap (Non-Primitive)
+
+let name1 = "Vishal";
+
+let name2 = name1;
+name2 = "VishalBhau";
+
+console.log(name1)
+console.log(name2)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "abc@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
