@@ -39,7 +39,7 @@ myCoding.forEach( (item)=>{
 } )
 
 // const result = myCoding.filter( (item)=>{
-//     // console.log(item.languageName);
+//     console.log(item.languageName);
 //     return item.languageName === 'javascript';
 // } )
 // console.log(result);
