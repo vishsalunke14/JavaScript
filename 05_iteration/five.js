@@ -37,3 +37,9 @@ const myCoding = [
 myCoding.forEach( (item)=>{
     console.log(item.languageName);
 } )
+
+// const result = myCoding.filter( (item)=>{
+//     // console.log(item.languageName);
+//     return item.languageName === 'javascript';
+// } )
+// console.log(result);
